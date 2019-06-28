@@ -11,7 +11,10 @@ def map_to_negativize(source_array)
   temp = []
   i = 0
   while i < source_array.length do
-      
+      temp[i] =
+  end
+  
+  return temp
 end 
 
 def map_to_no_change(source_array)
