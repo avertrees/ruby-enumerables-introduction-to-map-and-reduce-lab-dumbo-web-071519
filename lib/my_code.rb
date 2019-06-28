@@ -6,11 +6,12 @@
 
 #produce a new Array after transforming or applying work to each element ie. negativize each item in an array
 #in: array
-#out: array
+#out: new array
 def map_to_negativize(source_array)
+  
   i = 0
-  while i < source_array.length 
-    
+  while i < source_array.length do
+      
 end 
 
 def map_to_no_change(source_array)
