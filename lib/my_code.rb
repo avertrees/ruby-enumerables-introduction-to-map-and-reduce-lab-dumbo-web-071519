@@ -8,7 +8,7 @@
 #in: array
 #out: new array
 def map_to_negativize(source_array)
-  
+  temp = []
   i = 0
   while i < source_array.length do
       
