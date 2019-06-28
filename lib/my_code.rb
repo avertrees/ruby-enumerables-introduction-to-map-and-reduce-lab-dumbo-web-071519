@@ -47,9 +47,9 @@ end
 #in: Array
 #out: single value
 
-def reduce_to_total(source_array, starting_point)
-  temp = 0
-  i = starting_point
+def reduce_to_total(source_array, starting_point=)
+  temp = starting_point
+  i = 0
   while i < source_array.length do
       temp + source_array[i]
       i += 1
