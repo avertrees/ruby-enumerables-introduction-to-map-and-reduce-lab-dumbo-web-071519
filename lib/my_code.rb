@@ -22,11 +22,23 @@ def map_to_no_change(source_array)
 end
 
 def map_to_double(source_array)
-
+  temp = []
+  i = 0
+  while i < source_array.length do
+      temp[i] = source_array[i] * 2
+      i += 1
+  end
+  return temp
 end
 
 def map_to_square(source_array)
-
+  temp = []
+  i = 0
+  while i < source_array.length do
+      temp[i] = source_array[i]
+      i += 1
+  end
+  return temp
 end
 
 
