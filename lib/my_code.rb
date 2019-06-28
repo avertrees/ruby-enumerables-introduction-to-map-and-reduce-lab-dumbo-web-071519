@@ -1,6 +1,14 @@
 # My Code here....
-def map_to_negativize(source_array)
+# map
+# 1. Taking an independent variable
+# 2. Plugging it into an equation
+# 3. Getting a result back
 
+#produce a new Array after transforming or applying work to each element ie. negativize each item in an array
+#in: array
+#out: array
+def map_to_negativize(source_array)
+  
 end 
 
 def map_to_no_change(source_array)
@@ -15,6 +23,11 @@ def map_to_square(source_array)
 
 end
 
+
+# reduce
+# accumulate the results of the work to produce a new single value. ie. sum of Array 
+#in: Array
+#out: single value
 def reduce_to_total(source_array, starting_point)
 
 end
